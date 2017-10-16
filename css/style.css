@@ -45,7 +45,6 @@ article {
   flex-wrap: wrap; }
   article .block {
     width: 200px;
-    height: 200px;
     background: #242424;
     border: 1px solid #242424;
     border-radius: 10px;
