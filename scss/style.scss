@@ -1,0 +1,82 @@
+$gold: #daa520;
+$black: #242424;
+
+body {
+    background: #36383d;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+    .logo i{
+        font-size: 30px;
+    }
+    
+    ul{
+        display: flex;
+    }
+    
+    li {
+        list-style-type: none;
+        flex: 1 1 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: $gold;
+        font-family: sans-serif;
+        text-transform: capitalize;
+        padding: 10px;
+        &:hover {
+            border-bottom: 1px solid $gold;
+        }
+        
+       
+    }
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    .block {
+        width: 200px; 
+        height: 200px;
+        background: $black;
+        border: 1px solid #242424;
+        border-radius: 10px;
+        color: $gold;
+        font-family: sans-serif;
+        margin-top: 15%;
+        line-height: 2;
+        padding: 8% 2% 0 2%;
+        position: relative;
+        text-align: center;
+        
+        &:hover {
+        box-shadow: 2px 2px 5px $gold;
+        }
+        
+    }
+    
+    
+    
+    .circle {
+        background: $gold;
+        border: 2px solid $black;
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: -50px;
+        left: 80px;
+        
+        i {
+            color: $black;
+            font-size: 56px;
+            margin-top: 25px;
+        }
+    }
+}
