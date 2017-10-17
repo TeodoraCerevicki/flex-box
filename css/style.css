@@ -3,7 +3,6 @@ body {
 
 nav {
   display: -webkit-box;
-  display: -moz-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -52,9 +51,9 @@ article {
     border-radius: 10px;
     color: #daa520;
     font-family: sans-serif;
-    margin-top: 15%;
+    margin-top: 200px;
     line-height: 2;
-    padding: 8% 2% 0 2%;
+    padding: 100px 33px 0;
     position: relative;
     text-align: center; }
     article .block:hover {
