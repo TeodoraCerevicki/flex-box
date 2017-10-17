@@ -3,6 +3,7 @@ body {
 
 nav {
   display: -webkit-box;
+  display: -moz-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -26,6 +27,7 @@ nav {
   nav a {
     text-decoration: none;
     color: #daa520;
+    border-bottom: 1px solid #36383d;
     font-family: sans-serif;
     text-transform: capitalize;
     padding: 10px; }
